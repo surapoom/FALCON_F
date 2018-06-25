@@ -429,9 +429,9 @@ int start()
 //----
     //adding dashboard
     if(EnableDashboard==True) ShowDashboard("Magic Number", MagicNumber,
-                                            "Direction M1", AIPredictionM1,
+                                            "Flag Buy", FlagBuy,
                                             "Change    M1", AIPriceChangePredictionM1,
-                                            "Direction M15", AIPredictionM15,
+                                            "Flag Sell", FlagSell,
                                             "Change    M15", AIPriceChangePredictionM15,
                                             "Direction H1", AIPredictionH1,
                                             "Change    H1", AIPriceChangePredictionH1); 
